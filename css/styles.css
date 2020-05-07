@@ -1,0 +1,189 @@
+body {
+  background-color: white;
+  font-family: 'Montserrat';
+  text-align: center;
+
+}
+
+/* Navbar Section */
+
+.nav-text {
+  margin: 0 20px;
+}
+.nav-class {
+  padding: 3% 5%;
+}
+
+/* First Section */
+
+.first-section {
+
+  text-align: left;
+  padding: 0 5%;
+}
+.first-section h2 {
+  line-height: 1.5;
+  margin: 20% 0 0;
+}
+.first-section p {
+  line-height: 1.3;
+  font-family: serif;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  padding-right: 10%;
+}
+.illustraion-image {
+  width: 90%;
+  height: 90%;
+  margin: 5% 0 0 5%;
+}
+input {
+  padding: 1% 2%;
+  width: 50%;
+  font-size: 1rem;
+  color: black;
+  font-family: serif;
+  margin-top: 2%;
+}
+input::placeholder {
+  font-size: 0.75rem;
+  color: grey;
+  font-family: 'Montserrat';
+
+}
+.btn-started {
+  width: 40%;
+  margin-left: 2%;
+  font-family: serif;
+}
+
+/* Middle Section */
+
+.bg-curve-image {
+  margin: 10% 0 0;
+}
+.middle-section {
+  background-color: #f7f7f7;
+  padding: 2% 5% 10%;
+  text-align: left;
+}
+.first-text,.second-text {
+  line-height: 1.3;
+  font-family: serif;
+  font-size: 1.1rem;
+  padding-right: 5%;
+}
+.first-text {
+  margin-top: 7%;
+}
+.fylo-link {
+  color: green;
+  font-family: serif;
+  font-size: 1.3rem;
+
+}
+.arrow-image {
+  width: 25px;
+  height: 25px;
+}
+
+/* Card Section */
+
+.card {
+  padding: 5%;
+  margin-top: 5%;
+  border-radius: 10px;
+  width: 60%;
+}
+.card-text {
+  margin-top: 5%;
+  font-size: 0.75rem;
+  line-height: 2;
+  font-family: 'Montserrat';
+  color: grey;
+}
+.quotes-image {
+  width: 25px;
+  height: 25px;
+}
+.profile-image {
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+}
+.card-span img {
+  float: left;
+  margin-right: 5%;
+}
+.profile-name {
+  font-weight: bolder;
+  color: black;
+  font-family: 'Montserrat';
+  margin: 0;
+  margin-top: 3%;
+}
+.profile-desn {
+  font-family: 'Montserrat';
+  color: grey;
+  font-size: 0.75rem;
+  margin-bottom: 10%;
+
+}
+
+/* LowerMiddle Section */
+
+.lower-middle-section {
+  background-color: #6983aa;
+  color: white;
+  padding: 7% 5%;
+  text-align: left;
+}
+.lower-middle-section p {
+  line-height: 1.5;
+  font-family: serif;
+  font-size: 1.1rem;
+  padding-right: 20%;
+  margin-top: 5%;
+
+}
+.lower-middle-section input {
+  width: 80%;
+  border-radius: 5px;
+  border-style: none;
+  padding: 2% 2%;
+  float: right;
+}
+.lower-middle-section button {
+  margin: 3% 0 0 20%;
+  font-family: serif;
+
+}
+
+/* Bottom Section */
+
+.bottom-section {
+  background-color: #202040;
+  padding: 7% 5%;
+  text-align: left;
+  color: white;
+  font-family: serif;
+}
+.bottom-images img {
+  float: left;
+  margin-right: 8%;
+}
+
+.icon {
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+  .middle-section-row {
+    text-align: center;
+  }
+  .card {
+    margin: auto;
+  }
+}
